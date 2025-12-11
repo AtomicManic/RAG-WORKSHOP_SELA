@@ -1,0 +1,47 @@
+NEXUS CORP INTERNAL COMMUNICATIONS
+MEMORANDUM
+==============================================================================
+FROM:               Human Resources (Global Talent Acquisition Center)
+TO:                 All Employees - Global
+DATE:               May 01, 2024
+SUBJECT:            Organization Announcement - Leadership Changes in Technology
+==============================================================================
+
+Dear Team,
+
+At Nexus Corp, we are committed to building a world-class technology leadership team to guide us through our next phase of hyper-growth. As we continue to integrate our recent acquisitions and drive towards our AI-first vision, strong leadership at the helm of our engineering organization is more critical than ever.
+
+It is with mixed emotions that we bid farewell to our outgoing VP of Engineering, Robert Ford. Robert has decided to retire after 8 years of dedicated service to Nexus Corp. During his tenure, Robert oversaw the transition from on-premise to cloud and built the foundation of our current tech stack. We wish Robert and his family all the best in this next chapter.
+
+Simultaneously, we are absolutely delighted to announce the appointment of Dana Sterling as our new Vice President of R&D, effective immediately.
+
+------------------------------------------------------------------------------
+ABOUT DANA STERLING
+------------------------------------------------------------------------------
+Dana joins us from CyberDyne Systems, where she served as Senior Director of Cloud Architecture. She holds a Ph.D. in Computer Science from MIT and has over 15 years of experience leading high-performance engineering teams in the Fintech and Data sectors.
+
+Dana is a recognized thought leader in Distributed Systems and Artificial Intelligence. Her mandate at Nexus Corp will be to unify our engineering culture, accelerate our delivery velocity, and oversee the execution of strategic data initiatives such as Project Chimera and the AI Analytics rollout.
+
+------------------------------------------------------------------------------
+ORGANIZATIONAL CHANGES
+------------------------------------------------------------------------------
+To support Dana's vision, we are implementing the following structural changes effective May 1st:
+
+1. Department Merger: The "Engineering", "QA", and "Applied Research" departments are being merged under the unified "R&D Division."
+2. Reporting Lines: Dana Sterling will assume full operational and strategic responsibility for the R&D Division.
+3. Direct Reports: All Department Heads, Project Managers, and Technical Leads currently sitting within the R&D organization will now report directly or indirectly to Dana.
+
+------------------------------------------------------------------------------
+UPDATED AUTHORITY MATRIX
+------------------------------------------------------------------------------
+Please note that as part of this transition, Dana will be conducting a comprehensive review of the current project portfolio.
+Effective today, any changes to strategic roadmaps, budget variances > $10k, or resource allocation for R&D projects require Dana's explicit approval.
+
+We are confident that Dana's leadership will propel us to new heights.
+Please join us in welcoming Dana to the Nexus family!
+
+Warm regards,
+
+Jessica Pearson
+Chief People Officer
+Nexus Corp

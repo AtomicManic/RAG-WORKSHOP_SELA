@@ -1,0 +1,68 @@
+NEXUS CORP | SRE & INCIDENT MANAGEMENT
+POST-MORTEM REPORT
+==============================================================================
+INCIDENT ID:        INC-409
+DATE OF INCIDENT:   June 09, 2024
+REPORT DATE:        June 10, 2024
+SEVERITY LEVEL:     SEV-1 (CRITICAL)
+STATUS:             CLOSED (Monitoring Phase)
+AFFECTED SERVICE:   Data Ingestion Pipeline (Module A / Chimera)
+------------------------------------------------------------------------------
+
+1. EXECUTIVE SUMMARY
+At 03:45 UTC on June 9th, the production cluster for the 'Chimera' Ingestion Pipeline experienced a catastrophic failure. The service responsible for consuming data from Subsidiary B's message bus entered a crash loop, resulting in a total cessation of data processing.
+
+The outage lasted for 12 hours and 30 minutes. While no data was permanently lost (due to Kafka retention policies), the processing lag peaked at 45,000 seconds, causing stale data to be presented in all downstream systems.
+
+2. DETAILED TIMELINE (UTC)
+------------------------------------------------------------------------------
+03:45 - PagerDuty alert triggered: "High Memory Usage > 95% on pod chimera-ingest-04".
+03:47 - Auto-scaling group attempted to spin up new pods.
+03:55 - New pods crashed immediately upon startup (CrashLoopBackOff).
+04:00 - Load Balancer health checks failed. Service declared DOWN.
+04:15 - On-Call Engineer (Maya L.) acknowledged the incident.
+04:30 - War Room initialized on Slack channel #inc-409-critical.
+05:00 - Initial hypothesis: Network partition or database lock. Disproved.
+06:15 - Heap dump analysis completed. Root cause identified: Memory Leak.
+07:30 - Patch development started (hotfix branch).
+12:00 - Hotfix deployed to staging. Regression testing passed.
+16:15 - Hotfix deployed to production. Service stabilized.
+16:30 - Incident marked resolved.
+
+3. ROOT CAUSE ANALYSIS (RCA)
+------------------------------------------------------------------------------
+The root cause was traced to the legacy connector component within Module A.
+Specifics:
+The connector uses a deprecated JSON parsing library (`lib-parser-v1`). Subsidiary B recently introduced a new field in their data payload containing non-standard UTF-8 characters. The library failed to handle these characters correctly, creating a memory leak where buffer objects were never garbage collected.
+
+The recursion depth exceeded the JVM stack limit, leading to `java.lang.OutOfMemoryError: Java heap space`.
+
+4. IMPACT ASSESSMENT
+------------------------------------------------------------------------------
+- Internal Users: Finance and Ops teams could not access real-time dashboards.
+- External Customers: None (Backend system).
+- Data Integrity: Validated. No corruption found.
+- SLA Breach: Yes. The 99.9% uptime target for June has been missed.
+
+5. REMEDIATION AND ACTION ITEMS
+------------------------------------------------------------------------------
+Immediate Fix:
+A hotfix was applied to sanitize input strings before parsing.
+
+Long-Term Resolution (Critical):
+The engineering team has determined that the legacy connector code is brittle and unmaintainable.
+Decision: A COMPLETE REFACTOR of the Ingestion Connector Module is required.
+- Owner: Raj Patel (Tech Lead)
+- Estimated Effort: 3 Sprints (approx 6 weeks).
+- Priority: P0. This work supersedes all roadmap features.
+
+6. LESSONS LEARNED
+------------------------------------------------------------------------------
+- Input validation must be enforced at the API Gateway level.
+- Alerting thresholds for memory leaks need to be tighter to allow pre-emptive action.
+- The dependency on the deprecated `lib-parser` should have been flagged during the Architecture Review.
+
+Report Prepared By:
+Maya L., SRE Team
+Reviewed By:
+Raj Patel, Tech Lead

@@ -1,0 +1,75 @@
+NEXUS CORP | GLOBAL GOVERNANCE, RISK, AND COMPLIANCE (GRC)
+POLICY DOCUMENT
+==============================================================================
+POLICY NAME:        Project Risk Management & Escalation Protocols
+POLICY ID:          POL-RM-2023
+VERSION:            4.2
+OWNER:              Corporate Strategy Office
+LAST REVIEWED:      December 2023
+NEXT REVIEW:        December 2024
+APPLICABILITY:      Global (All Subsidiaries)
+==============================================================================
+
+1. PURPOSE AND SCOPE
+------------------------------------------------------------------------------
+The purpose of this policy is to establish a standardized framework for identifying, assessing, and mitigating risks across all Nexus Corp strategic initiatives.
+This policy applies to all projects with a total budget exceeding $500,000 USD or those designated as "Strategic Initiatives" by the C-Suite.
+Compliance with this policy is mandatory for all Project Managers and Department Heads.
+
+2. RISK CLASSIFICATION FRAMEWORK
+------------------------------------------------------------------------------
+Risks are evaluated based on a standard 5x5 Matrix (Impact vs. Probability).
+
+2.1 Risk Categories
+- Financial Risk: Potential for budget overrun or revenue loss.
+- Operational Risk: Potential for service disruption or timeline delay.
+- Reputational Risk: Potential damage to brand image.
+- Compliance Risk: Potential violation of GDPR, SOC2, or other regulations.
+
+2.2 Risk Levels
+- Low Risk (Score 1-5): Managed at the Team Level.
+- Medium Risk (Score 6-12): Managed at the Project Manager Level.
+- High Risk (Score 15-25): Requires Executive Visibility.
+
+3. PROJECT HEALTH STATUS DEFINITIONS
+------------------------------------------------------------------------------
+Project Managers are required to update the project status weekly based on the following criteria:
+
+* GREEN: Project is on time, on budget, and within scope.
+* YELLOW: Minor deviations detected (< 10% variance). Corrective actions in place.
+* RED: Major deviations detected. Critical path is blocked.
+  Criteria for RED Status:
+  - Budget variance > 20% OR
+  - Timeline delay > 2 weeks OR
+  - Critical quality failure (e.g., SEV-1 incident) OR
+  - Loss of key resources.
+
+4. ESCALATION PROTOCOLS FOR 'RED' STATUS PROJECTS
+------------------------------------------------------------------------------
+When a strategic project is classified as RED, the following mandatory protocols are triggered automatically to ensure rapid recovery.
+
+4.1 Reporting Frequency
+Status reports must move from Weekly to Daily cadence. Reports must be circulated to the Steering Committee by 09:00 AM EST.
+
+4.2 Financial Freeze
+All non-critical operational expenses associated with the project are frozen pending review by the CFO.
+
+4.3 THE "WAR ROOM" PROTOCOL (RECOVERY COMMITTEE)
+If a project remains in RED status for more than 48 hours, a dedicated "War Room" must be established to drive immediate resolution.
+
+   A. Composition of the War Room:
+      - Project Manager
+      - Technical Leads
+      - Quality Assurance Lead
+      - HR Business Partner (optional)
+
+   B. Leadership Requirement:
+      To ensure executive accountability and rapid decision-making, the War Room must be chaired and led directly by the Department Vice President (VP) responsible for the project's owning division.
+      
+      *Explicit Clarification:* This responsibility resides with the VP level. It cannot be delegated to a Director, Senior Director, or Middle Manager. The VP is responsible for authorizing the recovery plan and presenting it to the C-Suite.
+
+5. AUDIT AND COMPLIANCE
+------------------------------------------------------------------------------
+The Internal Audit team will conduct random checks on Red projects to ensure the War Room protocol is being followed. Failure to adhere to these escalation protocols may result in disciplinary action up to and including termination of employment.
+
+--- END OF POLICY ---
