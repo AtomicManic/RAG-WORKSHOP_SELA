@@ -1,0 +1,98 @@
+NEXUS CORP | ENTERPRISE PROJECT MANAGEMENT OFFICE (EPMO)
+PROJECT CHARTER DOCUMENT
+==============================================================================
+PROJECT NAME:       Project Chimera
+PROJECT ID:         PRJ-2024-CHM
+CLASSIFICATION:     INTERNAL CONFIDENTIAL
+VERSION:            2.1 (Final Approved)
+DATE:               January 15, 2024
+AUTHOR:             Marcus Thorne, PMP
+SPONSOR:            Executive CTO Office
+OWNING DEPARTMENT:  R&D Division
+==============================================================================
+
+1. INTRODUCTION AND BACKGROUND
+------------------------------------------------------------------------------
+1.1 Executive Summary
+Following the strategic acquisition of "DataFlow Inc" (APAC region) and "StreamLine Analytics" (EMEA region) in Q4 2023, Nexus Corp currently operates with three disjointed data ecosystems. This fragmentation has resulted in significant operational inefficiencies, including a 40% increase in data latency and discrepancies in global financial reporting.
+
+Project Chimera is initiated to unify these disparate data streams into a singular, governed Data Lake architecture. This initiative is not merely technical but a strategic prerequisite for the upcoming AI Analytics rollout planned for late 2024.
+
+1.2 Business Justification
+Current state analysis reveals that cross-subsidiary reporting takes approximately T+3 days. The target state enabled by Project Chimera is T+1 hour. This reduction is critical for the Finance department's "Real-Time Ledger" initiative.
+
+2. PROJECT SCOPE
+------------------------------------------------------------------------------
+2.1 In-Scope
+The following activities are explicitly within the scope of Project Chimera:
+- Design and deployment of a centralized Snowflake Data Warehouse.
+- Migration of 50TB of historical transaction data from legacy SQL Servers and Oracle DBs.
+- Development of "Module A": A real-time Data Ingestion Pipeline using Apache Kafka and Spark.
+- Development of "Module B": Data Transformation and Normalization layer.
+- Implementation of standardized Role-Based Access Control (RBAC) across the new platform.
+- Decommissioning of the legacy "DataFlow" on-premise servers.
+
+2.2 Out-of-Scope
+- Development of frontend visualization dashboards (assigned to the UX/UI Guild).
+- Migration of Marketing and HR data streams (deferred to Phase 2).
+- Training of end-users (handled by the L&D department).
+
+3. PROJECT ORGANIZATION AND STAKEHOLDERS
+------------------------------------------------------------------------------
+3.1 Governance Structure
+The project will be executed using the Nexus Hybrid-Agile methodology.
+
+* Executive Sponsor:     Sarah Connor (CTO)
+* Steering Committee:    Drift Boss (CFO), Jessica Pearson (CPO)
+* Project Manager:       Marcus Thorne
+* Solution Architect:    Robert Neo
+
+3.2 Core Team Structure (R&D Division)
+The execution team resides within the R&D Division.
+- Technical Lead (Ingestion Module): Raj Patel
+- Technical Lead (Warehousing): Emily Blunt
+- Senior DevOps Engineer: Sarah Jennings
+- QA Lead: John Doe
+
+3.3 Roles and Responsibilities
+- The Project Manager (Marcus Thorne) is responsible for timeline, budget, and risk management.
+- The Technical Leads report functionally to the Project Manager for sprint deliverables, while maintaining administrative reporting lines to the VP of R&D for career development and resource allocation.
+
+4. HIGH-LEVEL TIMELINE AND MILESTONES
+------------------------------------------------------------------------------
+The project timeline is aggressive to meet fiscal year targets.
+
+| Milestone ID | Description                     | Target Date      |
+|--------------|---------------------------------|------------------|
+| M1           | Architecture Sign-off           | Feb 15, 2024     |
+| M2           | Infrastructure Provisioning     | Mar 01, 2024     |
+| M3           | Module A (Ingestion) Beta       | May 15, 2024     |
+| M4           | Module B (Storage) Beta         | June 30, 2024    |
+| M5           | Alpha Launch (Integration)      | July 15, 2024    |
+| M6           | General Availability (GA)       | Oct 15, 2024     |
+
+*Note: The Alpha Launch (M5) is a critical dependency for the Q3 Financial Audit.*
+
+5. BUDGET AND FINANCIALS
+------------------------------------------------------------------------------
+Total Approved Budget: $2,500,000 USD
+- CAPEX (Licenses & Hardware): $1.2M
+- OPEX (Labor & Cloud Costs): $1.3M
+
+6. ASSUMPTIONS, CONSTRAINTS, AND RISKS
+------------------------------------------------------------------------------
+6.1 Assumptions
+- Legacy data schemas are documented and accessible.
+- Subsidiary IT teams will be available for knowledge transfer.
+
+6.2 Key Risks (Initial Assessment)
+- Risk #1: Data format incompatibility between EMEA and APAC regions.
+- Risk #2: Potential delays in hardware procurement due to supply chain issues.
+- Risk #3: Resource contention with the ongoing "Project Phoenix" update.
+
+7. APPROVALS
+------------------------------------------------------------------------------
+By signing below, the stakeholders approve the Project Charter and authorize the Project Manager to proceed with execution.
+
+[Signed] Sarah Connor, CTO
+[Signed] Marcus Thorne, Project Manager
