@@ -1,0 +1,62 @@
+
+
+# Summaries & Content Understanding
+
+-“Summarize OpenAI’s funding history and major investors.”
+
+-“What challenges is Apple facing in the AI race?”
+
+-“How does Databricks plan to use its recent funding round?”
+
+-“Why is NVIDIA considered dominant in the AI infrastructure market?”
+
+# Fact-Focused Questions
+
+-“How much did Amazon invest in Anthropic, and under what conditions?”
+
+-“What was the valuation of Scale AI in its deal with Meta?”
+
+-“What tensions exist between Microsoft and OpenAI?”
+
+-“What are the main pillars of Google’s AI strategy?”
+
+-Soft Comparisons (Still Vector-based)
+
+-“How do OpenAI and Anthropic differ in their AI development philosophy?”
+
+-“Which company appears more enterprise-ready: Databricks or Meta?”
+
+
+
+# Company Relationships
+
+-“Which companies are directly connected to OpenAI, and how?”
+
+-“How is Meta connected to Scale AI, and why does it matter?”
+
+-“Who are Databricks’ main competitors in enterprise AI?”
+
+# People & Influence
+
+-“Which companies has Alexandr Wang worked with, and how is he connected to Meta?”
+
+-“How is Sam Altman connected across the AI ecosystem?”
+
+-“Which individuals have the most influence over the AI market today?”
+
+# Market Structure
+
+- “Which company is the most central node in the AI ecosystem graph?”
+
+- “Which companies are dependent on NVIDIA for infrastructure?”
+
+- “Which partnerships pose competitive risks to Google?”
+
+
+
+- “Why is Meta’s investment in Scale AI considered an aggressive strategic move?”
+
+- “How does funding influence AI product strategy across companies?”
+
+#AFTER INGESTION OF NEW FILE
+-"What is OpenAI long term advantage depends on?"
