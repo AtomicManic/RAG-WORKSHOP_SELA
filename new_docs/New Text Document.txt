@@ -1,0 +1,30 @@
+# OpenAI and the Competitive AI Landscape
+
+OpenAI operates at the center of a rapidly evolving artificial intelligence ecosystem, balancing commercial partnerships, research goals, and competitive pressures.
+
+## Strategic Partnerships
+
+Microsoft is OpenAI’s most significant partner, providing cloud infrastructure through Azure and investing over $13 billion. This partnership enables OpenAI to scale its models globally but also creates tension around control, governance, and product direction.
+
+Amazon, while not directly partnered with OpenAI, has strengthened ties with Anthropic, positioning itself as a counterweight to Microsoft’s influence in generative AI.
+
+## Competitive Pressures
+
+OpenAI faces competition on multiple fronts
+- Google competes through Gemini and deep integration with search and productivity tools.
+- Anthropic differentiates via safety-focused positioning and strong enterprise alignment.
+- Meta focuses on open models and data scale, recently accelerating efforts through major acquisitions.
+- Apple lags in visible AI offerings but controls a massive device ecosystem that could shift the balance quickly.
+
+## Infrastructure Dependency
+
+Like most AI labs, OpenAI depends heavily on NVIDIA GPUs. This dependency gives NVIDIA outsized influence over the pace and economics of AI innovation across the industry.
+
+## Market Position
+
+OpenAI is widely viewed as the technical leader in foundation models, but its long-term advantage depends on
+- Maintaining access to compute
+- Managing partner relationships
+- Balancing openness with commercialization
+
+The AI race is no longer just about models — it is about capital, data, infrastructure, and strategic alignment.
